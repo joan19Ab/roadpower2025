@@ -1,0 +1,134 @@
+<html lang="es">
+<head>
+    <title>ROADPOWER.col </title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="Imagenes/IMG-20251104-WA0029.jpg">
+        </div>
+        
+       <div class="titulo">
+        <h3><em><u>ROAD POWER</u></em></h3>
+       </div>
+    </header>
+    <center><nav>
+        <a href="Inicio.html" class="button">Inicio</a>
+        <a href="nosotros.html" class="button">Nosotros</a>
+        <a href="#" class="button">contactanos</a>
+        <a href="servicios.html" class="button">Servicios</a>
+    </nav></center>
+    <section class="Bienvenida">
+        <div class="welcome">
+            <h1>Bienvenidos</h1>
+        </div>
+        <div class="frase">
+            <h2>ENERGIA EN GRANDE</h2>
+        </div>
+
+    </section>
+    <div class="galery">
+        <h3>Galeria</h3>
+     </div>
+     <span Class="linea"></span>
+    <section class="galeria">
+   
+     <a href="#imgen1">
+            <img src="Imagenes/IMG-20251113-WA0004.jpg" alt="">
+        </a>
+        <a href="#imgen2">
+            <img src="Imagenes/IMG-20251110-WA0014.jpg" alt="">
+        </a>
+        <a href="#imgen3">
+            <img src="Imagenes/IMG-20251110-WA0013.jpg" alt="">
+        </a>
+        <a href="#imgen4">
+            <img src="Imagenes/IMG-20251110-WA0012.jpg" alt="">
+        </a>
+        <a href="#imgen5">
+            <img src="Imagenes/IMG-20251104-WA0027.jpg" alt="">
+        </a>
+        <a href="#imgen6">
+            <img src="Imagenes/IMG_20251114_125647_849.jpg" alt="">
+        </a>
+        <a href="#imgen7">
+            <img src="Imagenes/IMG_20251113_202810_283.webp." alt="">
+        </a>
+        <a href="#imgen8">
+            <img src="Imagenes/IMG_20251113_072823_382.jpg" alt="">
+        </a>
+         <a href="#imgen9">
+            <img src="Imagenes/IMG_20251105_104001_668.jpg" alt="">
+        </a>
+        <a href="#imgen10">
+            <img src="Imagenes/IMG_20251105_104748_962.jpg" alt="">
+        </a>
+    </section>
+
+    <article class="light-box" id="imgen1">
+        <a href="#imgen8"class=next><i class="fa-solid fa-arrow-left"></i></a>
+        <img src="Imagenes/IMG-20251113-WA0004.jpg" alt="">
+        <a href="#imgen2"class=next><i class="fa-solid fa-arrow-right"></i></a>
+        <a href="#"class="close">x</a>
+    </article>
+    <article class="light-box" id="imgen2">
+        <a href="#imgen1"class=next><i class="fa-solid fa-arrow-left"></i></a>
+        <img src="Imagenes/IMG-20251110-WA0014.jpg" alt="">
+        <a href="#imgen3"class=next><i class="fa-solid fa-arrow-right"></i></a>
+        <a href="#"class="close">x</a>
+    </article>
+    <article class="light-box" id="imgen3">
+        <a href="#imgen2"class=next><i class="fa-solid fa-arrow-left"></i></a>
+        <img src="Imagenes/IMG-20251110-WA0013.jpg" alt="">
+        <a href="#imgen4"class=next><i class="fa-solid fa-arrow-right"></i></a>
+        <a href="#"class="close">x</a>
+    </article>
+    <article class="light-box" id="imgen4">
+        <a href="#imgen3"class=next><i class="fa-solid fa-arrow-left"></i></a>
+        <img src="Imagenes/IMG-20251110-WA0012.jpg" alt="">
+        <a href="#imgen5"class=next><i class="fa-solid fa-arrow-right"></i></a>
+        <a href="#"class="close">x</a>
+    </article>
+    <article class="light-box" id="imgen5">
+        <a href="#imgen4"class=next><i class="fa-solid fa-arrow-left"></i></a>
+        <img src="Imagenes/IMG-20251104-WA0027.jpg" alt="">
+        <a href="#imgen6"class=next><i class="fa-solid fa-arrow-right"></i></a>
+        <a href="#"class="close">x</a>
+    </article>
+    <article class="light-box" id="imgen6">
+        <a href="#imgen5"class=next><i class="fa-solid fa-arrow-left"></i></a>
+        <img src="Imagenes/IMG_20251114_125647_849.jpg" alt="">
+        <a href="#imgen7"class=next><i class="fa-solid fa-arrow-right"></i></a>
+        <a href="#"class="close">x</a>
+    </article>
+    <article class="light-box" id="imgen7">
+        <a href="#imgen6"class=next><i class="fa-solid fa-arrow-left"></i></a>
+        <img src="Imagenes/IMG_20251113_202810_283.webp" alt="">
+        <a href="#imgen8"class=next><i class="fa-solid fa-arrow-right"></i></a>
+        <a href="#"class="close">x</a>
+    </article>
+    <article class="light-box" id="imgen8">
+        <a href="#imgen7"class=next><i class="fa-solid fa-arrow-left"></i></a>
+        <img src="Imagenes/IMG_20251113_072823_382.jpg" alt="">
+        <a href="#imgen1"class=next><i class="fa-solid fa-arrow-right"></i></a>
+        <a href="#"class="close">x</a>
+    </article>
+     <article class="light-box" id="imgen9">
+        <a href="#imgen8"class=next><i class="fa-solid fa-arrow-left"></i></a>
+        <img src="Imagenes/IMG_20251105_104001_668.jpg" alt="">
+        <a href="#imgen1"class=next><i class="fa-solid fa-arrow-right"></i></a>
+        <a href="#"class="close">x</a>
+    </article>
+    <article class="light-box" id="imgen10">
+        <a href="#imgen9"class=next><i class="fa-solid fa-arrow-left"></i></a>
+        <img src="Imagenes/IMG_20251105_104748_962.jpg" alt="">
+        <a href="#imgen1"class=next><i class="fa-solid fa-arrow-right"></i></a>
+        <a href="#"class="close">x</a>
+    </article>
+
+
+
+    <script src="https://kit.fontawesome.com/cda9017a47.js" crossorigin="anonymous"></script>
+</body>
+</html>
