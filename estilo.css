@@ -1,0 +1,305 @@
+@font-face {
+    font-family:callmejigo;
+    src: url(Fuente/Call\ me\ Jigo\ -\ Personal\ Use.otf);
+}
+@font-face {
+    font-family: cuteEggs;
+    src: url(Fuente/Cute\ Egg.ttf);
+}
+
+@font-face {
+    font-family: ExoticQueen;
+    src: url(Fuente/Exotic\ Queen.ttf);
+}
+
+
+
+
+header{
+ 
+    background-color: #00E5FF;
+    box-shadow: 0 0 20px #00CFFF;
+    align-items: center;
+    height: 200px;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #001018;
+    box-shadow:
+       0 0 20px #00E5FF,
+       0 0 40px #00E5FF,
+       0 0 60px #00E5FF,
+       0 0 90px #00E5FF,
+       inset 0 0 20px #00E5FF,
+       inset 0 0 30px #00E5FF;
+    border: 6px solid #00E5FF;
+    border-radius: 15px;
+    
+}
+body{
+    background-color: #001018;
+     box-shadow:
+       0 0 10px #00E5FF,
+       0 0 20px #00E5FF,
+       0 0 40px #00E5FF,
+       0 0 80px #00E5FF,
+       inset 0 0 10px #00E5FF,
+       inset 0 0 20px #00E5FF;
+    border: 6px solid #00E5FF;
+    border-radius: 15px;
+}
+
+.titulo{
+    font-family: callmejigo;
+    font-size: 50px;
+    color: #00E5FF;
+    text-shadow:
+      0 0 1px currentColor,
+      0 0 2.5px currentColor;
+    border:3px solid #00E5FF;
+    border-radius:40px;
+}
+
+
+.Logo img{
+    height: 300px;
+    width: 450px;
+     box-shadow:
+       0 0 10px #00E5FF,
+       0 0 20px #00E5FF,
+       0 0 40px #00E5FF,
+       0 0 80px #00E5FF,
+       inset 0 0 10px #00E5FF,
+       inset 0 0 20px #00E5FF;
+    border:2px solid #00E5FF;
+    border-radius:20px;
+}
+nav a{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #001018;
+    color: whrite; 
+    text-decoration: none;
+    border-radius: 8px;
+    margin: 5px;
+    front-weight: bold;
+    box shadow:
+        0 0 2px #00E5FF,
+        0 0 4px #00E5FF,
+        0 0 6px #00E5FF,
+        0 0 8px #00E5FF;
+    transition: 0.2s;
+}
+nav a:hover{
+    background-color: darkred;
+    box-shadow:
+        0 0 2px #00E5FF,
+        0 0 4px #00E5FF,
+        0 0 8px #00E5FF,
+        0 0 10px #00E5FF;
+    transform: scale(1.05);
+}
+nav{
+    height: 35px;
+    font-size: large;
+    color: rgb(99, 53, 29);
+    padding: auto;
+    background-color: rgb(255, 237, 227);
+   
+
+}
+button{
+    background-color:rgb(255, 237, 227);
+    border: none;
+    width:auto;
+    font-size: large;
+    font-family:cuteEggs;
+    color:rgb(99, 53, 29) ;
+}
+.Bienvenida{
+    text-align: center;
+    background-color: #001018;
+    background-color: #001018;
+    box-shadow:
+       0 0 10px #00E5FF,
+       0 0 20px #00E5FF,
+       0 0 40px #00E5FF,
+       0 0 80px #00E5FF,
+       inset 0 0 10px #00E5FF,
+       inset 0 0 20px #00E5FF;
+    border: 6px solid #00E5FF;
+    border-radius: 15px;
+}
+.welcome h1{
+    font-size:100px;
+    font-family: cuteEggs;
+    color:#00E5FF
+}
+.frase{
+    font-family: ExoticQueen;
+    font-size: 45px;
+   color: #00E5FF;
+}
+.galery h3{
+    background-color:#001018;
+     box-shadow:
+       0 0 10px #00E5FF,
+       0 0 20px #00E5FF,
+       0 0 40px #00E5FF,
+       0 0 80px #00E5FF,
+       inset 0 0 10px #00E5FF,
+       inset 0 0 20px #00E5FF;
+    border: 6px solid #00E5FF;
+    border-radius: 15px;
+    color:#00E5FF;
+    font-weight: 400;
+    text-align: center;
+    padding:20px 0;
+    font-size: 40px;
+    font-family: cuteEggs;
+}
+.linea{
+    background-color: #00E5FF;
+    height: 5px;
+    width: 100%;
+    display: block;
+ 
+}
+.galeria{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    width: 95%;
+    margin: auto;
+    grid-gap:10px;
+    padding:40px 0;
+    overflow:hidden ;
+}
+.galeria > a{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+
+}
+.galeria img{
+    width: 100%;
+    vertical-align: top;
+    height: 300px;
+    object-fit: cover;
+    transition: transform 0.5s;
+}
+.galeria a:hover img{
+    filter: blur(2px);
+    transform: rotate(10deg) scale(1.3);
+}
+
+.light-box{
+    position: fixed;
+    top:0;
+    left:0;
+    background: rgba(0, 0, 0, .5);
+    transition: transform .3s ease-in-out;
+    width: 100%;
+    height: 100vh;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+}
+.light-box:target{
+    transform: scale(1);
+}
+
+
+.light-box img{
+    width:75vw ;
+    max-height: 70vw;
+
+}
+
+.close{
+    display: block;
+    position: absolute;
+    top:40px;
+    right: 40px;
+    background:  rgb(255, 237, 227);
+    color: rgb(216, 152, 116);
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    text-align:center ;
+    line-height: 40px;
+    border-radius: 50%;
+    
+}
+.next{
+    display:block;
+    background:  rgb(255, 237, 227);
+    color: rgb(216, 152, 116);
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+    text-align:center ;
+    line-height: 40px;
+}
+.Tnosotros h3{
+    font-family: cuteEggs;
+    text-align: center;
+    font-size: x-large;
+    color: #d9d9d9;
+}
+.mediaplayer4{
+    height:50px;
+    width:50px;
+}
+.detalles p{
+    font-family: ExoticQueen;
+    font-size: xx-large;
+    color:#d9d9d9;
+}
+
+a img{
+    align-items: center;
+}
+
+.tituloC {
+    font-family: cuteEggs;
+    text-align: center;
+    color:#d9d9d9;
+}
+
+.whatsapp{
+    text-align: center;
+    color:00f2ff;
+}
+
+.instagram{
+    text-align: center;
+    color:00f2ff;
+}
+.titulaI {
+    text-align: center;
+    color:00f2ff;
+}
+.precios{
+display: flex;
+
+}
+.menus img {
+    width: 500px;
+    height: auto;
+}
+.menus{
+    text-align: center;
+    align-items: center;
+}
+.tituloS h3{
+   text-align: center;
+   font-family: cuteEggs;
+   color: rgb(216, 152, 116);font-size: xx-large;
+}
+.info p{
+    font-family: exoticQueen;
+    font-size: xx-large;
+    color:#d9d9d9;
+}
