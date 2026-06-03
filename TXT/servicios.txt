@@ -1,0 +1,70 @@
+<html lang="es">
+<head>
+       <title>servicios</title>
+       <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <div class="Logo">
+            <img src="Imagenes/IMG-20251104-WA0029.jpg">
+        </div>
+        
+       <div class="titulo">
+        <h3><em><u>servicios</u></em></h3>
+       </div>
+    </header>
+    <center><nav>
+        <a href="Inicio.html" class="button">Inicio</a>
+        <a href="nosotros.html"><button>Nosotros</button></a>
+        <a href="contactanos.html#"><button>Contactanos</button></a>
+        <a href="servicios.html"><button>Servicios</button></a>
+    </nav></center>
+    <div class="tituloS">
+        <h3>muestras</h3>
+    </div>
+    
+ <section class="precios">
+      <center><div class="menus">
+            
+            <img src="Imagenes/1763476731249.jpg" alt="">
+            <img src="Imagenes/IMG_20251106_101453_039.jpg" alt="">
+            <height= 40px ;
+           
+        </div> </center>
+    </section>
+    <div class="info">
+        <P>nuestro proyecto brinda multiples servicios y en multiples ambitos de la vida diaria y a futuro tambien , 
+           gracias a su practicidad y facil implementacion en esta sociedad, algunos ambitos son:</p>
+    <div class="titulo">
+    <div><em><u> al medio ambiente : </u></em></div>
+       <P> nuestro sistema es de gran ayuda al medio ambiente , ya que le estanos restando la carga que se necesita 
+           para generar electricidad de otras formas , o por ejemplo disminuir el gasto de recursos y  la ocupacion 
+           de habitats de nuestra flora y fauna.</P>
+    <div class="titulo">
+    <div><em><u> a la sociedad: </u></em></div>
+       <P>esta sera muy beneficiada puesto que los recursos monetarios que se ahorran en energia se pueden invertir en
+          muchas iniciativas que puedan beneficiarnos directa o indirectamente,algunas serian descuentos en las facturas 
+          de la energia o por ejemplo la inversion de los fondos en educacion o salud. </P>
+    <div class="titulo">
+    <div><em><u> a la innovacion: </u></em></div>
+       <p>con nuestra invension se favorece a la investigacion en el ambito de las energias renovables , por la simple razon
+          de que este sistema tiene un gran margen de mejora en muchos ambitos , como la eficiencia , la automatizacion o 
+          para facilitar su implementacion.</p>  
+    <div><center>
+     <div class="titulo">
+    <div><em><u> experiencia: </u></em></div>
+    </div> </center>
+ <section class="precios">
+      <center><div class="menus">
+       <center>
+            <img src="imagenes/IMG_20251106_144353_668.jpg" alt="">
+        </center> 
+      
+    <p> tuvimos el privilegio de poder asistir a la feria de tecnica y  proyectos de la camara de comercio de duitama , en 
+        la cual pudimos dar a conocer nuestro proyecto ante el mundo y mostrar su gran potencial en el ambito de las energias 
+        renovables y la innovacion.</p>
+    </div>
+    
+    
+</body>
+</html>

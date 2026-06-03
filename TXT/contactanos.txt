@@ -1,0 +1,48 @@
+<html lang="es">
+<head>
+    <title>contactanos</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <div class="Logo">
+            <img src="Imagenes/IMG-20251104-WA0029.jpg">
+        </div>
+        
+       <div class="titulo">
+        <h3><em><u>mas sobre nosotros</u></em></h3>
+       </div>
+    </header>
+    <center><nav>
+        <a href="Inicio.html" class="button">Inicio</a>
+        <a href="nosotros.html" class="button">Nosotros</a>
+        <a href="contactanos.html#" class="button">contactanos</a>
+        <a href="servicios.html" class="button">Servicios</a>
+    </nav></center>
+    <div class="tituloC">
+        <h1>Contactanos</h1> 
+    </div> 
+   <center>
+    <audio controls>
+        <source src="Imagenes/1764161002841660719cerb2x7-voicemaker.in-speech.mp3" type="audio/mp3">
+    </audio>
+   </center>
+   </div>
+    <div class="whatsapp">
+        <h2>WhatsApp</h2>
+        <h3>3113107866</h3>
+    </div> 
+   <div class="titulaI">
+    <h2>Instagram</h2>
+   </div>
+    <div class="instagram">
+       
+        <a href="https://XXXXXXXXXXXXXXXXXXXXXXXX?igsh=MWU5c25xbjJ5a2Jxcw== ">
+            <img src="Imagenes/logotipo-de-instagram.png" alt="">
+        </a>
+        <p>@roadpower.1</p>
+        
+        
+    </div>
+</body>
+</html>

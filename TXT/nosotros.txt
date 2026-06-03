@@ -1,0 +1,45 @@
+﻿<html lang="es">
+<head>
+       <title> funcionamiento </title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <div class="Logo">
+            <img src="Imagenes/IMG-20251104-WA0029.jpg">
+        </div>
+        
+       <div class="titulo">
+        <h3><em><u>funcionamiento</u></em></h3>
+       </div>
+    </header>
+    <center><nav>
+        <a href="Inicio.html" class="button">Inicio</a>
+        <a href="nosotros.html" class="button">Nosotros</a>
+        <a href="contactanos.html#" class="button">contactanos</a>
+        <a href="servicios.html" class="button">Servicios</a>
+    </nav></center>
+    <div class="Tnosotros">
+        <h3>explicacion</h3>
+    </div>
+    <center>
+        <div class="mediaplayer4">
+            <video src="Imagenes/VID_20251105_124408.mp4" controls></video>
+        </div>
+    </center>
+    <div class="detalles">
+    <div class="titulo">
+      <h3><em><u>sustentable</u></em></h3>
+        <P> este proyecto es un sustentyeble  comparado con los otros tipos de energia , ya sean sustentebles o no ,
+            el nuestro no es invasivo con el medio ambiente ni con nosotros , ademas el consumo de recursos que se necesitan 
+            para implementarlo a gran escala es muy pequeño comparado con sus beneficios  . 
+        </P>
+    <div class="titulo">
+    <h3><em><u>innovador</u></em></h3>
+     <p>este proyecto no tiene precedentes , ya que un  sistema que use los reductores de velocidad para generar energia electrica
+      no existe en ninguna parte del mundo , ademas que gracias a su simpleza rara vez  necesita mantenimiento y puede mejorarse mucho 
+      mas y hacerse mas inteligente  en muchos aspectos </p>
+    </div>
+    
+</body>
+</html>
